@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block content %}
+<!--Here the number 2 in "/App/delete/2/" needs to be replaced with the pk of the file. The logic is working. -->
+    <form action="/App/delete/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <h5>Click confirm below the filename you want to delete from the following list:</h5>
+        {% for myfile, pk in filename %}
+            <p> - {{ myfile }}</p>
+            <input type="submit" value="Confirm">
+            <input type="hidden" name="pk" value="{{ pk }}">
+            <br>
+            <br>
+        {% endfor %}
+        <br>
+    </form>
+{% endblock %}
+
