@@ -49,7 +49,7 @@ This will install all libraries required for the project.
 
 ## How to Use this Repo 
 
-### Run via the Flask App
+### Run via the Django App
 * Clone the repo by running - 
 
     `git clone https://github.com/purnima99/UCS757-EmotionDetection.git`
