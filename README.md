@@ -92,19 +92,19 @@ Choosing ```Upload your audio file``` the user will be redirected to a modified 
 
 Choosing ```Make your prediction``` the user will be redirected to a modified home page. On this page, it will be possible to see a list of the files already on the server. Following the path ```media/{filename}``` it will be also possible to listen to the audio file.
 
-![Alt Text](./i-o/01.png)
+![Alt Text](./i-o/07.png)
 
 After clicking on ```Submit```, the user will be redirected to a modified home page that will include the emotion detected by the Keras model for the file selected.
 
-![Alt Text](./i-o/01.png)
+![Alt Text](./i-o/08.png)
 
 *Another sample file*
-![Alt Text](./i-o/01.png)
-![Alt Text](./i-o/01.png)
+![Alt Text](./i-o/09.png)
+![Alt Text](./i-o/10.png)
 
 **See the App in action!**
 
-The current version of the application is deployed on Heroku: https://emotion-detection-project.herokuapp.com/index/ . 
+The current version of the application is deployed on Heroku: https://emotion-detection-project.herokuapp.com/index/
 
 ## Technologies and Tools
 * Python 3.x 
