@@ -19,7 +19,7 @@ Web Application developed using Django.
 
 This project is a Django-REST API that uses a deep learning model interfacing using a simple front end. The model adopted in this work is an Emotion Classifier trained with audio files of the RAVDESS & TESS dataset links to which are in the Appendix.
 
-This project presents a deep learning classifier able to predict the emotions of a human speaker encoded in an audio file. The classifier is trained using 2 different datasets, RAVDESS and TESS, and has an overall F1 score of 80% on 8 classes (neutral, calm, happy, sad, angry, fearful, disgust and surprised).
+This project presents a deep learning classifier able to detect the emotions of a human speaker encoded in an audio file. The classifier is trained using 2 different datasets, RAVDESS and TESS, and has an overall F1 score of 80% on 8 classes (neutral, calm, happy, sad, angry, fearful, disgust and surprised).
 
 Feature set information -
 
@@ -32,7 +32,7 @@ The samples include:
 
 2800 files from TESS. A set of 200 target words were spoken in the carrier phrase "Say the word _____' by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 stimuli in total. Two actresses were recruited from the Toronto area. Both actresses speak English as their first language, are university educated, and have musical training. Audiometric testing indicated that both actresses have thresholds within the normal range.
 
-The classes the model wants to predict are as follows: (0 = neutral, 1 = calm, 2 = happy, 3 = sad, 4 = angry, 5 = fearful, 6 = disgust, 7 = surprised). This dataset is skewed as there is not a calm class in TESS, hence there are less data for that particular class and this is evident when observing the classification report.
+The classes the model wants to detect are as follows: (0 = neutral, 1 = calm, 2 = happy, 3 = sad, 4 = angry, 5 = fearful, 6 = disgust, 7 = surprised). This dataset is skewed as there is not a calm class in TESS, hence there are less data for that particular class and this is evident when observing the classification report.
 
 **Prediction Accuracy of 0.80** 
 
@@ -90,7 +90,7 @@ Choosing ```Upload your audio file``` the user will be redirected to a modified 
 
 *Detect Emotion*
 
-Choosing ```Make your prediction``` the user will be redirected to a modified home page. On this page, it will be possible to see a list of the files already on the server. Following the path ```media/{filename}``` it will be also possible to listen to the audio file.
+Choosing ```Detect Emotion``` the user will be redirected to a modified home page. On this page, it will be possible to see a list of the files already on the server. Following the path ```media/{filename}``` it will be also possible to listen to the audio file.
 
 ![Alt Text](./i-o/01.png)
 
