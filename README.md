@@ -34,7 +34,7 @@ The samples include:
 
 The classes the model wants to detect are as follows: (0 = neutral, 1 = calm, 2 = happy, 3 = sad, 4 = angry, 5 = fearful, 6 = disgust, 7 = surprised). This dataset is skewed as there is not a calm class in TESS, hence there are less data for that particular class and this is evident when observing the classification report.
 
-**Prediction Accuracy of 0.80** 
+**Detection/Prediction Accuracy of 0.80** 
 
 More information on datasets in the appendix.
 
