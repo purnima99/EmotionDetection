@@ -150,7 +150,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'django_emotion_classification',
-        'USER': 'marco',
+        'USER': 'purnima',
         'PASSWORD': 'test',
         'HOST': 'localhost',
         'PORT': '',
