@@ -62,7 +62,25 @@ More information on datasets in the appendix.
 ![Link to flow chart](./flow_chart.png)
 
 ## Input/Output Screenshots
+
+*Landing Page*
 ![Alt Text](./i-o/01.png)
+
+*File Upload*
+![Alt Text](./i-o/02.png)
+![Alt Text](./i-o/03.png)
+![Alt Text](./i-o/04.png)
+
+*File delete*
+![Alt Text](./i-o/05.png)
+![Alt Text](./i-o/06.png)
+
+*Detect Emotion*
+![Alt Text](./i-o/01.png)
+![Alt Text](./i-o/01.png)
+![Alt Text](./i-o/01.png)
+![Alt Text](./i-o/01.png)
+
 
 ## Technologies and Tools
 * Python 3.x 
