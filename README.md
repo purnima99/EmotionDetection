@@ -90,7 +90,7 @@ Choosing ```Upload your audio file``` the user will be redirected to a modified 
 
 *Detect Emotion*
 
-Choosing ```Detect Emotion``` the user will be redirected to a modified home page. On this page, it will be possible to see a list of the files already on the server. Following the path ```media/{filename}``` it will be also possible to listen to the audio file.
+Choosing ```Make your prediction``` the user will be redirected to a modified home page. On this page, it will be possible to see a list of the files already on the server. Following the path ```media/{filename}``` it will be also possible to listen to the audio file.
 
 ![Alt Text](./i-o/01.png)
 
