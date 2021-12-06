@@ -11,7 +11,7 @@ Web Application developed using Django.
 * [Tools & Technologies Used](#technologies-and-tools)
 * [Setup](#setup)
 * [How to Use this Repo](#how-to-use-this-repo)
-* [Developer Stuff](#developer-stuff)
+* [Developer stuff](#developer-stuff)
 * [Status](#status)
 * [Appendix](#appendix)
 
@@ -133,7 +133,7 @@ This will install all libraries required for the project.
     
     `python manage.py runserver`
 
-# Developers stuff
+# Developer stuff
 
 **DB creation**
 
