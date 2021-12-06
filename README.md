@@ -60,7 +60,7 @@ More information on datasets in the appendix.
 
 ## Methodology Flow Chart
 
-![Link to flow chart](./Mthodology_Flow_Chart.png)
+![Link to flow chart](./Methodology_Flow_Chart.png)
 
 ## Input/Output Screenshots
 
