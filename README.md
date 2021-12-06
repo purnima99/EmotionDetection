@@ -133,7 +133,7 @@ This will install all libraries required for the project.
     
     `python manage.py runserver`
 
-# Developer stuff
+## Developer stuff
 
 **DB creation**
 
