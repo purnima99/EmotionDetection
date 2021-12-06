@@ -144,7 +144,7 @@ After the installation of PostgreSQL, it is possible to use pgAdmin to create a 
 The ```App_filemodel``` table can be created with the following script:
 
 ```
-CREATE DATABASE django-emotion-classification;
+CREATE DATABASE django_emotion_classification;
 
 CREATE USER purnima WITH PASSWORD 'test';
 
@@ -155,7 +155,7 @@ CREATE TABLE App_filemodel (
    path TEXT NOT NULL
 );
 
-GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA django-emotion-classification TO marco;
+GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA django_emotion_classification TO purnima;
 
 ALTER USER purnima CREATEDB; -- This is to run the automatic tests, otherwise you will get an "unable to create database" error when running python manage.py test
 
@@ -166,7 +166,7 @@ Please note the above script is made with the data available in the ```settings.
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django-emotion-classification',
+        'NAME': 'django_emotion_classification',
         'USER': 'purnima',
         'PASSWORD': 'test',
         'HOST': 'localhost',
