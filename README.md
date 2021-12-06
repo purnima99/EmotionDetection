@@ -41,21 +41,21 @@ More information on datasets in the appendix.
 
 *Model summary*
 
-![Link to model](https://github.com/purnima99/UCS757-EmotionDetection/media/model.png) 
+![Link to model](./Emotion-Detection-from-Audio/media/model.png) 
 
 *Loss and accuracy plots*
 
-![Link to loss](https://github.com/purnima99/UCS757-EmotionDetection/media/loss.png) 
+![Link to loss](./Emotion-Detection-from-Audio/media/loss.png) 
 
-![Link to accuracy](https://github.com/purnima99/UCS757-EmotionDetection/media/accuracy.png)
+![Link to accuracy](./Emotion-Detection-from-Audio/media/accuracy.png)
 
 *Classification report*
 
-![Link to classification report](https://github.com/purnima99/UCS757-EmotionDetection/media/ClassificationReport.png)
+![Link to classification report](./Emotion-Detection-from-Audio/media/ClassificationReport.png)
 
 *Confusion matrix*
 
-![Link to classification report](https://github.com/purnima99/UCS757-EmotionDetection/media/ConfusionMatrix.png)
+![Link to classification report](./Emotion-Detection-from-Audio/media/ConfusionMatrix.png)
 
 ## Methodology Flow Chart
 
