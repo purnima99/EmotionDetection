@@ -1,6 +1,6 @@
-# UCS757-Emotion Detection in Audio Files (Speech & Songs)
+# Emotion Detection in Audio Files (Speech & Songs)
 
-Built deep learning model that detects 8 different kind of emotions - neutral, calm, happy, sad, angry, fearful, disgust and surprised in any user uploaded audio file.
+A deep learning model that detects 8 different kind of emotions - neutral, calm, happy, sad, angry, fearful, disgust and surprised in any user uploaded audio file.
 Web Application developed using Django.
 
 ## Table of contents
