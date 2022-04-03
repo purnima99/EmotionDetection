@@ -74,33 +74,33 @@ The user journey starts on the index page at ```/index/``` where it is possible 
 
 *Landing Page*
 
-![Alt Text](./i-o/01.png)
+![Alt Text](./i-o/01.jpeg)
 
 Choosing ```Upload your audio file``` the user will be redirected to a modified home page. The user will be asked to pick a file from his computer. The UI will confirm if the operation has been successful. 
 
 *Upload File*
 
-![Alt Text](./i-o/02.png)
-![Alt Text](./i-o/03.png)
-![Alt Text](./i-o/04.png)
+![Alt Text](./i-o/02.jpeg)
+![Alt Text](./i-o/03.jpeg)
+![Alt Text](./i-o/04.jpeg)
 
 *Delete File*
-![Alt Text](./i-o/05.png)
+![Alt Text](./i-o/05.jpeg)
 ![Alt Text](./i-o/06.png)
 
 *Detect Emotion*
 
 Choosing ```Make your prediction``` the user will be redirected to a modified home page. On this page, it will be possible to see a list of the files already on the server. Following the path ```media/{filename}``` it will be also possible to listen to the audio file.
 
-![Alt Text](./i-o/07.png)
+![Alt Text](./i-o/07.jpeg)
 
 After clicking on ```Submit```, the user will be redirected to a modified home page that will include the emotion detected by the Keras model for the file selected.
 
-![Alt Text](./i-o/08.png)
+![Alt Text](./i-o/08.jpeg)
 
 *Another sample file*
-![Alt Text](./i-o/09.png)
-![Alt Text](./i-o/10.png)
+![Alt Text](./i-o/09.jpeg)
+![Alt Text](./i-o/10.jpeg)
 
 **See the App in action!**
 
@@ -127,7 +127,7 @@ This will install all libraries required for the project.
 ### Run via the Django App
 * Clone the repo by running - 
 
-    `git clone https://github.com/purnima99/UCS757-EmotionDetection.git`
+    `git clone https://github.com/purnima99/EmotionDetection.git`
 
 * Run the manage.py file - 
     
